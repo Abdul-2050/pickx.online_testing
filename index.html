@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/navbar.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+
+</head>
+
+<body>
+
+    <div class="announcement">
+        <div class="marquee-container">
+            <div class="marquee">
+                <div><a href="standings.html">Icc world cup India 2023</a></div>
+                <div><a href="standings.html">Icc world cup India 2023</a></div>
+                <div><a href="standings.html">Icc world cup India 2023</a></div>
+                <div><a href="standings.html">Icc world cup India 2023</a></div>
+                <div><a href="standings.html">Icc world cup India 2023</a></div>
+                <div><a href="standings.html">Icc world cup India 2023</a></div>
+                <div><a href="standings.html">Icc world cup India 2023</a></div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        :root {
+            --marquee-speed: 40s;
+            --marquee-hover-offset: -50px;
+            --marquee-hover-transition-speed: 0.7s;
+            --marquee-fade-edges: 30%;
+        }
+
+        .marquee-container {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+        }
+
+        .marquee {
+            display: flex;
+            white-space: nowrap;
+            gap: 30px;
+            animation: animate-marquee var(--marquee-speed) infinite linear;
+            transition: var(--marquee-hover-transition-speed) transform ease-out;
+            will-change: transform;
+        }
+
+        .marquee:hover {
+            animation-play-state: paused;
+            transform: translateX(var(--marquee-hover-offset));
+        }
+
+        @keyframes animate-marquee {
+            0% {
+                transform: translateX(0%);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        .announcement {
+            padding: 2px 5%;
+            background: var(--primary-header_txt-background);
+            color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+        }
+
+        .announcement a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .announcement a {
+            font-size: 12px;
+            font-weight: 600;
+            background: linear-gradient(315deg, #ff256e 15%, #5122b8 80%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+
+
+
+
+    <header>
+        <nav class="nav">
+            <div class="navigation-bar container">
+                <div class="item-left">
+                    <a href="/pickx-main/index.html">
+
+                        <h2 class="grandient-tex">PickX</h2>
+                        <span class="navbar-tag grandient-tex">ICC WC 23 India <img
+                                src="/img/PickX-logo_transparent.png" style="width: 16px;" alt=""></span>
+                    </a>
+                </div>
+
+                <style>
+                    .item-left {
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    .navbar-tag {
+                        color: white;
+                        font-size: 8px;
+                        background-color: rgb(255, 255, 255);
+                        border-radius: 3px;
+                        position: absolute;
+                        top: 23px;
+                        /* left: 73px; */
+                        left: 80px;
+                        padding: 3px;
+                        /* border: 1px solid rgb(4, 234, 0); */
+                        background-image: linear-gradient(315deg, #ff256e 15%, #5122b8 80%);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+
+                    .navigation-bar .item-left .logo {
+                        display: flex;
+                        align-items: center;
+                    }
+                </style>
+
+                <div class="item-center desktop">
+                    <ul class="menu-list">
+                        <li><a href="/pickx-main/icc-1day-wc/main/authentication.html">ICC world cup</a></li>
+                        <li><a href="/pickx-main/icc-1day-wc/main/dashboard.html">IPL</a></li>
+                        <li><a href="/pickx-main/icc-1day-wc/main/standings.html">PSL</a></li>
+                        <li><a href="/pickx-main/about.html">T20 WC</a></li>
+                        <li><a href="/pickx-main/comingSoon.html">Champions Trophy</a></li>
+                    </ul>
+                </div>
+
+                <div class="item-right">
+                    <ul class="menu-list desktop">
+                        <li><a href="javascript:void(0)">Support </a></li>
+                        <li><a href="javascript:void(0)">Login</a></li>
+                    </ul>
+                    <ul class="menu-list menu">
+                        <li class="menu-btn-backdrop"><a href="#" id="menuBtn">Menu</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="menu-backdrop"></div>
+        </nav>
+    </header>
+
+
+
+    <div class="backdrop"></div>
+    <aside>
+        <button class="close">&times;</button>
+        <a href="authentication.html">ICC world Cup</a>
+        <a href="dashboard.html">Indian Premier league</a>
+        <a href="standings.html">pakistan Super league</a>
+        <a href="comingSoon.html">T20 WC</a>
+        <a href="about.html">About us</a>
+        <a href="settings.html">Settings</a>
+    </aside>
+
+
+
+
+
+
+    <div class="contentContainer">
+
+        <div class="contentContainerMainContainer">
+
+            
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <footer class="custom-footer">
+        <link rel="stylesheet" type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <div class="custom-container">
+            <div class="custom-row">
+                <div class="custom-footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="about.html">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <!-- <li><a href="#">privacy policy</a></li> -->
+                    </ul>
+                </div>
+                <div class="custom-footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="custom-footer-col">
+                    <h4>Shop online</h4>
+                    <ul>
+                        <li><a href="https://shop.icc-cricket.com/en/?_s=bm-fi-icc-prtsite-icc-holdingpage-150922-JM"
+                                target="_blank">Shop Now</a></li>
+                    </ul>
+                </div>
+                <div class="custom-footer-col">
+                    <h4>follow us</h4>
+                    <div class="custom-social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+
+    <script src="/assets/js/animation-navbar.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+
+</body>
+
+</html>
